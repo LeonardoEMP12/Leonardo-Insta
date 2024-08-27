@@ -1,0 +1,53 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dbdbdb;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.box {
+    width: 900px;
+}
+.box h1{
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.post {
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+}
+
+.topizq {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    float: left;
+}
+
+.topder {
+    display: flex;
+    align-items: right;
+    padding: 10px;
+    float: right;
+}
+.topder p{
+    color: #9e9c9c;
+    padding-top: 15px;
+}
+
+
+.photo {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    
+    justify-content: space-around;
+    padding: 10px;
+}
